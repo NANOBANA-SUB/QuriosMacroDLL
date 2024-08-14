@@ -1,0 +1,27 @@
+# Ignore build directory and its contents
+build/
+
+# Ignore object files
+*.o
+
+# Ignore DLL files
+*.dll
+
+# Ignore static libraries (if applicable)
+*.a
+
+# Ignore executable files (if applicable)
+*.exe
+
+# Ignore debug symbols (if applicable)
+*.pdb
+
+# Ignore any core dumps (in case of crashes)
+core
+
+# Ignore temporary files created by editors or the OS
+*.tmp
+*.log
+*.bak
+*.swp
+*~
