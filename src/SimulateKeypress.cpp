@@ -1,6 +1,6 @@
 #include "SimulateKeypress.h"
 
-DLLEXPORT void SimulateKeypress(WORD key, int pressDurationMs)
+DLL_EXPORT void SimulateKeyPress(WORD key, int pressDurationMs)
 {
     INPUT inputs[2] = {};
 
