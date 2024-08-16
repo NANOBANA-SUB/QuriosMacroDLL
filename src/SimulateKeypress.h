@@ -9,6 +9,6 @@
 #define DLL_EXPORT __declspec(dllimport)
 #endif
 
-extern "C" DLL_EXPORT void SimulateKeyPress(WORD key, int pressDurationMs);
+extern "C" DLL_EXPORT void SimulateKeyPress(const WORD key,const int pressDurationMs);
 
 #endif // SIMULATE_KEYPRESS_H
